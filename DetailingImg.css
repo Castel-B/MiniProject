@@ -4,13 +4,13 @@
 
 .main-img-1 {
   display: block;
-  transition: linear 0.2s;
+  transition: ease-in-out 0.3s;
 }
 
 .img-detail-cont-1 {
   transform: scale(1);
   opacity: 0;
-  transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.3s;
 }
 
 .img1-active {
@@ -30,8 +30,6 @@
   box-shadow: 2px 3px 6px 2px rgba(0, 0, 0, 0.1);
 }
 
-
-
 .Fimg-detail-2 {
     position: absolute;
     right: 210px;
@@ -45,12 +43,12 @@
 
 .main-img-2 {
   display: block;
-  transition: linear 0.2s;
+  transition: ease-in-out 0.3s;
 }
 
 .img-detail-cont-2 {
   opacity: 0;
-  transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.3s;
 }
 
 .img2-active {
@@ -82,12 +80,12 @@
 
 .main-img-3 {
   display: block;
-  transition: linear 0.2s;
+  transition: ease-in-out 0.3s;
 }
 
 .img-detail-cont-3 {
   opacity: 0;
-  transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.3s;
 }
 
 .img3-active {
