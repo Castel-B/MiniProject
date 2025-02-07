@@ -1,3 +1,19 @@
+@media (max-width: 1200px) {
+  .project-items {
+    padding: 0 5rem;
+    gap: 10rem;
+  }
+
+  .table-contain {
+    padding-bottom: 2rem;
+    padding: 0 5rem;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
 @media (max-width: 1000px) {
   p {
     font-size: 18px;
@@ -7,9 +23,46 @@
     font-size: 36px;
     padding-top: 12.5rem;
   }
+
+  .table-contain {
+    padding-bottom: 2rem;
+    padding: 0 5rem;
+  }
+
+  .mouse {
+    margin-top: 250px;
+  }
+
+  .project-items {
+    padding: 0 5rem;
+    gap: 12rem;
+  }
+  .project-items img {
+    scale: 0.9;
+  }
+
+  .right-1,
+  .right-2,
+  .right-3 {
+    width: 45%;
+  }
+
+  .project-items h4 {
+    font-size: 30px;
+    margin-bottom: 18px;
+  }
+
+  .project-items p {
+    font-size: 18px;
+    font-weight: lighter;
+  }
 }
 
 @media (max-width: 855px) {
+  p {
+    font-size: 16px;
+  }
+
   /*Burger*/
   .burger {
     display: block;
@@ -34,7 +87,7 @@
     right: 0;
     top: 92px;
     padding-top: 30px;
-    height: 230px;
+    height: 300px;
     display: block;
     background-color: rgba(255, 255, 255, 0.847);
     border-radius: 5px;
@@ -54,7 +107,7 @@
   }
 
   .mouse {
-    margin-top: 279px;
+    margin-top: 260px;
   }
 
   .table-contain {
@@ -65,12 +118,46 @@
     width: 90vh;
   }
 
+  .contact-titles-cont {
+    padding: 5.5rem 2rem 0 2rem;
+  }
+
   .hero-titles {
     text-transform: uppercase;
     font-weight: bolder;
     font-size: 34px;
     color: #000000;
     padding-top: 12.5rem;
+  }
+
+  /* Project section */
+
+  .project-titles-cont {
+    padding-top: 5.5rem;
+  }
+
+  .project-items {
+    margin-top: 3rem;
+    padding: 0 5rem;
+    gap: 10rem;
+  }
+
+  .p-items-1,
+  .p-items-3 {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+  .p-items-2 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .right-1,
+  .right-2,
+  .right-3 {
+    width: 85%;
   }
 }
 
@@ -126,7 +213,7 @@
   .nav-items {
     width: 50%;
     top: 92px;
-    height: 220px;
+    height: 290px;
     justify-items: center;
   }
 
@@ -234,5 +321,18 @@
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+  }
+
+  /* Project Section */
+  .project-items {
+    gap: 8rem;
+    padding: 0 1rem;
+    margin-bottom: 10rem;
+  }
+
+  .right-1,
+  .right-2,
+  .right-3 {
+    width: 95%;
   }
 }
