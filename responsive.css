@@ -175,8 +175,11 @@
   .contact-form-contain {
     width: 80vw;
   }
-}
 
+  .Fimg-detail-1, .Fimg-detail-2, .Simg-detial-1, .Simg-detail-2, .Timg-detail-1, .Timg-detail-2 {
+    display: none;
+  }
+}
 @media (max-width: 640px) {
 
   .burger {
